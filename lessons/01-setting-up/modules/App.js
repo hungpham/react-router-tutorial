@@ -1,7 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 export default React.createClass({
-  render() {
-    return <div>Hello, React Router!</div>
+  render: function() {
+    return (
+    	<div>
+    		Hello, React Router!
+    	</div>
+    );
   }
-})
+});
